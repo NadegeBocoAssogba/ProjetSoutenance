@@ -1,0 +1,217 @@
+[
+    {
+      "id": 1,
+      "name": "Ceinture en perles",
+      "category": "accessoires",
+      "description": "Ceinture en perles avec chaêne, élégante faite à la main, parfaite pour sublimer une robe ou un pantalon.",
+      "price": 1500,
+      "oldPrice": 2000,
+      "image": "/images/Ceinture-noire.jpg",
+      "color": "noir",
+      "rating": 4.5,
+      "author": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Crop-top",
+      "category": "vêtements",
+      "description": "Crop-top en perles nacrées, idéale pour vos chics sorties.",
+      "price": 5000,
+      "oldPrice": 7000,
+      "image": "/images/Habits-Noir.jpg",
+      "color": "noir",
+      "rating": 4.0
+    },
+    {
+      "id": 3,
+      "name": "Collier doré perlé",
+      "category": "bijoux",
+      "description": "Collier artisanal en perles dorées avec design traditionnel africain.",
+      "price": 2000,
+      "image": "/images/Collier-dore.jpg",
+      "color": "or",
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Sac à main perlé",
+      "category": "sacs",
+      "description": "Petit sac à main fabriqué à la main avec des perles.",
+      "price": 35000,
+      "image": "/images/Sac-rose.jpg",
+      "color": "rose",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Bagues en perles",
+      "category": "bijoux",
+      "description": "De jolies bagues conçues en perles de rocaille.",
+      "price": 200,
+      "oldPrice": 300,
+      "image": "/images/Bagues.jpg",
+      "color": "blanc",
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "Perles de hanches (baya)",
+      "category": "accessoires",
+      "description": "Devenez plus séduisante et belle avec nos bayas personnalisés.",
+      "price": 3000,
+      "oldPrice": 4000,
+      "image": "/images/Baya-nom.jpg",
+      "color": "bleu",
+      "rating": 4.5,
+      "author":"admin"
+    },
+    {
+      "id": 7,
+      "name": "Crop-top",
+      "category": "vêtements",
+      "description": "Crop-top en perles nacrées à porter sur des chemises pour un look à la fois moderne, élégant et artisanal",
+      "price": 15000,
+      "oldPrice": 17000,
+      "image": "/images/Habits-Or.jpg",
+      "color": "Or",
+      "rating": 4.0
+    },
+    {
+      "id": 8,
+      "name": "Chevillère",
+      "category": "bijoux",
+      "description": "De joiles bijoux pour sublimer vos chevilles.",
+      "price": 500,
+      "image": "/images/Anklet.jpg",
+      "color": "blanc",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "name": "Porte-clé",
+      "category": "autres",
+      "description": "Des portes-clés en forme de sacs faits main.",
+      "price": 1000,
+      "image": "/images/Porte-clés.jpg",
+      "color": "argent",
+      "rating": 4.2
+    },
+    {
+      "id": 10,
+      "name": "Chapeau",
+      "category": "accessoires",
+      "description": "Chapeau de luxe pour ajouter une touche d'élégance et de particularité à votre look.",
+      "price": 7000,
+      "oldPrice": 8000,
+      "image": "/images/Chapeau-noir.jpg",
+      "color": "noir",
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "Sac en coeur",
+      "category": "sacs",
+      "description": "Sacs en perles avec pochette fabriquée en satin ou duchesse.",
+      "price": 20000,
+      "image": "/images/Coeur-violet.jpg",
+      "color": "violet",
+      "rating": 4.4
+    },
+    {
+      "id": 12,
+      "name": "Ensemble",
+      "category": "bijoux",
+      "description": "Ensemble collier, bracelet et bague en perles nacrées qui ajoute de l'élégance à n'importe quelle tenue.",
+      "price": 3000,
+      "oldPrice": 5000,
+      "image": "/images/Ensemble3.jpg",
+      "color": "argent",
+      "rating": 4.8
+    },
+    {
+      "id": 13,
+      "name": "Bracelet",
+      "category": "bijoux",
+      "description": "Bracelet en perles brillants avec chaîne pour sublimer votre poignet.",
+      "price": 1000,
+      "image": "/images/Bracelet.jpg",
+      "color": "rose",
+      "rating": 4.1
+    },
+    {
+      "id": 14,
+      "name": "Chaussures",
+      "category": "chaussures",
+      "description": "Chaussures en perles garantissant confort, praticité et élégance",
+      "price": 1500,
+      "image": "/images/Chaussures.jpg",
+      "color": "bleu",
+      "rating": 4.6
+    },
+    {
+      "id": 15,
+      "name": "Sac rond",
+      "category": "sacs",
+      "description": "Sac en perles de forme ronde pour compléter vos looks tradi-moderne.",
+      "price": 15000,
+      "oldPrice": 20000,
+      "image": "/images/Sac-rond.jpg",
+      "color": "orange",
+      "rating": 4.2
+    },
+    {
+      "id": 16,
+      "name": "Serre-tete",
+      "category": "bijoux",
+      "description": "Serre-tête en perles nacrées pour enjoliver vos cheveux et ressortir votre beauté.",
+      "price": 1500,
+      "oldPrice": 2000,
+      "image": "/images/Serre-tete.jpg",
+      "color": "blanc",
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Bijou de téléphone",
+      "category": "autres",
+      "description": "Bijou en perles pour enjoliver vos téléphones.",
+      "price": 1000,
+      "oldPrice": 1500,
+      "image": "/images/Bijoux-tel.jpg",
+      "color": "blanc",
+      "rating": 4.4
+    },
+    {
+      "id": 18,
+      "name": "Shamballa",
+      "category": "bijoux",
+      "description": "Shamballa personnalisé à adapter selon vos goûts et préférences.",
+      "price": 500,
+      "oldPrice": 1000,
+      "image": "/images/Shamballa-.jpg",
+      "color": "bleu",
+      "rating": 4.2
+    },
+    {
+      "id": 19,
+      "name": "Sac en coeur",
+      "category": "sacs",
+      "description": "Sac idéal pour votre outfit de la Saint-Valentin.",
+      "price": 15000,
+      "oldPrice": 20000,
+      "image": "/images/Sac-coeur-rouge.jpg",
+      "color": "rouge",
+      "rating": 4.8
+    },
+    {
+      "id": 20,
+      "name": "Baya lumineux",
+      "category": "sacs",
+      "description": "Des perles de hanches faits avec des perles qui s'allument dans l'obscurité.",
+      "price": 2000,
+      "oldPrice": 3000,
+      "image": "/images/Baya-lumineux.jpg",
+      "color": "vert",
+      "rating": 4.5
+    }
+  ]
