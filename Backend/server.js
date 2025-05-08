@@ -51,10 +51,11 @@ app.use(
 // });
 const path = require("path");
 
-app.use(express.static(path.join(__dirname, "../client/build")));
+// Servir les fichiers statiques de React
+app.use(express.static(path.join(__dirname, "../Frontend/build")));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../Frontend/build/index.html"));
 });
 
 const paymentRoutes = require("./routes/shop/payment");
