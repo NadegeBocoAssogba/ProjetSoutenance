@@ -164,12 +164,12 @@ export default function Paiement() {
         >
           Valider la commande
         </button>
-        <button
+        {/* <button
           className="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700"
           onClick={handlePayment}
         >
           Payer avec PayPal
-        </button>
+        </button> */}
       </form>
     </div>
   );

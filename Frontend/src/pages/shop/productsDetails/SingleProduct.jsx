@@ -4,9 +4,20 @@ import { ChevronRight } from "lucide-react";
 import { useParams } from "react-router-dom";
 import productsData from "../../../data/products.json";
 import RatingStars from "../../../components/RatingStars";
+import { useEffect } from "react";
 
 const SingleProduct = () => {
   const { id } = useParams();
+  const product = productsData.find((item) => item.id === parseInt(id));
+
+  if (!product) {
+    return (
+      <div className="text-center text-red-600 mt-10">Produit introuvable</div>
+    );
+  }
+   useEffect(() => {
+    window.scrollTo(0, 0); // Remontez en haut de la page lorsque le composant est monté
+  });
   return (
     <>
       <section className="max-w-7xl md:h-64 mx-auto flex flex-col items-center justify-center mt-20 py-10 px-6 md:px-12 lg:px-24 bg-except">
@@ -22,40 +33,39 @@ const SingleProduct = () => {
             <Link to="/boutique">boutique</Link>
           </span>
           <ChevronRight className="size-4" />
-          <span className="hover:text-rose">product name</span>
+          <span className="hover:text-rose">{product.name}</span>
         </div>
       </section>
       <section className="flex flex-col items-center justify-center mt-8 py-10 px-6 md:px-12 lg:px-24">
         <div className="flex md:flex-row flex-col gap-5">
           <div className="md:w-1/2 w-full flex items-center justify-center overflow-hidden group rounded-lg ">
             <img
-              src={productsData[id].image}
-              alt={productsData[id].name}
+              src={product.image}
+              alt={product.name}
               className="rounded-md w-full h-auto"
             />
           </div>
           <div className="flex flex-col justify-center md:w-1/2 w-full mt-5">
             <h3 className=" text-4xl font-extrabold text-center md:text-left capitalize mb-5 text-[#5a3e36]">
-              {productsData[id].name}
+              {product.name}
             </h3>
             <p className="text-slate-700 max-w-xl text-center md:text-left mb-4">
-              {productsData[id].description}
+              {product.description}
             </p>
             <p className="text-xl text-slate-900 max-w-xl text-center md:text-left mb-4">
-              Prix : {productsData[id].price} FCFA
+              Prix : {product.price} FCFA
             </p>
-            {/* additional information */}
             <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-4">
               <p>
                 <strong>Catégorie: </strong>
-                {productsData[id].category}
+                {product.category}
               </p>
               <div className="flex gap-2 mb-2">
                 <strong>Notation: </strong>
-                <RatingStars rating={productsData[id].rating} />
+                <RatingStars rating={product.rating} />
               </div>
               <p>
-                <strong>Couleur:</strong> {productsData[id].color}
+                <strong>Couleur:</strong> {product.color}
               </p>
             </div>
             <button className="hover:bg-pink-700 bg-pink-600 text-white px-4 py-3 rounded-md transition duration-300 ease-in-out md:w-1/3 w-full text-center">
@@ -64,8 +74,6 @@ const SingleProduct = () => {
           </div>
         </div>
       </section>
-      {/* Display reviews */}
-      {/* A faire: modifier les reviews avec l'API */}
       <section className="flex flex-col justify-center mt-8 py-10 px-6 md:px-16 lg:px-32">
         <h2 className="text-xl font-bold">Commentaires</h2>
       </section>

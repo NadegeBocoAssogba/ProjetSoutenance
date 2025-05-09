@@ -23,11 +23,11 @@ const OrderSummary = () => {
         <p className="mt-2 text-slate-900">
           Produits sélectionnés: {selectedItems}{" "}
         </p>
-        <p>Prix total: ${totalPrice} </p>
+        <p>Prix total: {totalPrice} FCFA </p>
         <p>
-          Tax: ({taxRate * 100}%) : ${tax.toFixed(2)}{" "}
+          Tax: ({taxRate * 100}%) : {tax} FCFA{" "}
         </p>
-        <h3 className="font-bold">Total : ${grandTotal.toFixed(2)}</h3>
+        <h3 className="font-bold">Total : {grandTotal} FCFA</h3>
       </div>
       <div className="px-4 mb-6">
         <button

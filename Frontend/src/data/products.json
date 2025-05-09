@@ -16,8 +16,8 @@
       "name": "Crop-top",
       "category": "vêtements",
       "description": "Crop-top en perles nacrées, idéale pour vos chics sorties.",
-      "price": 5000,
-      "oldPrice": 7000,
+      "price": 15000,
+      "oldPrice": 20000,
       "image": "/images/Habits-Noir.jpg",
       "color": "noir",
       "rating": 4.0
@@ -206,7 +206,7 @@
     {
       "id": 20,
       "name": "Baya lumineux",
-      "category": "sacs",
+      "category": "autres",
       "description": "Des perles de hanches faits avec des perles qui s'allument dans l'obscurité.",
       "price": 2000,
       "oldPrice": 3000,

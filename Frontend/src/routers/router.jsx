@@ -9,6 +9,7 @@ import SingleProduct from "../pages/shop/productsDetails/SingleProduct.jsx";
 import Login from "../components/Login.jsx";
 import Register from "../components/Register.jsx";
 import About from "../pages/about/About.jsx";
+import Formations from "../pages/formations/Formations.jsx";
 import Blog from "../pages/blog/BlogPage.jsx";
 import PagePaiement from "../pages/paiement/PagePaiement.jsx";
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/boutique",
         element: <Shop />,
+      },
+      {
+        path: "/formations",
+        element: <Formations />,
       },
       {
         path: "/boutique/:id",

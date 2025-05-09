@@ -59,8 +59,8 @@ export default function Navbar() {
             <Link to="/boutique" className="hover:text-rose">
               Boutique
             </Link>
-            <Link to="/contact" className="hover:text-rose">
-              Contact
+            <Link to="/formations" className="hover:text-rose">
+              Formations
             </Link>
             <Link to="/blog" className="hover:text-rose">
               Blog
