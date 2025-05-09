@@ -13,8 +13,8 @@ import Logo from "../assets/MonLogo.png";
 const Footer = () => {
   return (
     <footer className="bg-[#3D0C11] text-[#F3E6E3] px-6 py-12">
-      <div className="max-w-7xl mx-auto grid text-center md:text-left grid-cols-1 md:grid-cols-4 gap-8">
-        <div>
+      <div className="max-w-7xl mx-auto grid justify-center md:text-left grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex flex-col items items-center md:text-left md:items-start">
           <img src={Logo} alt="" className="size-16 mb-2" />
           <h2 className="text-2xl font-bold text-white mb-3">Holy Beads</h2>
           <p className="text-sm">
@@ -22,7 +22,7 @@ const Footer = () => {
             vêtements & accessoires uniques faits main.
           </p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <h4 className="text-lg font-semibold mb-3">NOS COORDONNEES</h4>
           <ul className="space-y-2 text-sm">
             <li className="flex justify-center items-center md:justify-start gap-2">
@@ -48,7 +48,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center text-center md:text-left md:items-start ">
           <h4 className="text-lg font-semibold mb-3">ENTREPRISES</h4>
           <div className="space-y-2 text-sm flex flex-col">
             <a href="/">Accueil</a>
@@ -58,7 +58,7 @@ const Footer = () => {
             <a href="">Terms et conditions</a>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center text-center md:text-left md:items-start">
           <h4 className="text-lg font-semibold mb-3">LIENS UTILES</h4>
           <div className="space-y-2 text-sm flex flex-col">
             <a href="/">Aide</a>
