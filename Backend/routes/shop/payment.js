@@ -3,7 +3,6 @@ const router = express.Router();
 const fedapay = require("../../helpers/fedapay");
 
 router.post("/pay", async (req, res) => {
-  console.log("Reçu dans /pay :", req.body);
   const { name, email, phone, amount } = req.body;
 
   try {
