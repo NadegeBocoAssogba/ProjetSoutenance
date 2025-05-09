@@ -52,10 +52,10 @@ app.use(
 const path = require("path");
 
 // Servir les fichiers statiques de React
-app.use(express.static(path.join(__dirname, "../Frontend/build")));
+app.use(express.static(path.join(__dirname, "../Frontend/dist")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../Frontend/build/index.html"));
+  res.sendFile(path.join(__dirname, "../Frontend/dist/index.html"));
 });
 
 const paymentRoutes = require("./routes/shop/payment");
